@@ -26,3 +26,6 @@ RUPenBPA-basis: Ruimtelijke uitvoeringsplan en Bijzonder plan van aanleg.
 Filter uit intern databeheer systeem  van de stad
 de zone wel woon-of recreatie > 'wrzja.shp' en
 de zone geen woon-of recreatie > 'wrzneen.shp'
+
+
+Voorbeeld van een eindresultaat: http://geotic.maps.arcgis.com/apps/webappviewer/index.html?id=cacc6e1fb5714e5ab640da12619d5c5a
