@@ -6,12 +6,12 @@ Met behulp van bijhorend pythonscript kan je heel snel de zones afbakenen waar j
 
 Na uitvoering van het script, kan je de projectboom als hulpmiddel gebruiken.
 
-# Volgende lagen zijn nodig voor het doorvoeren van het project: 
+# Volgende lagen/shapes zijn nodig voor het doorvoeren van het project: 
 Adp: Administratieve  percelen van je eigen gemeente > 'Adp.shp'
     LINK: https://download.agiv.be/Producten/Detail?id=386&title=GRB_Adp_administratief_perceel 
 
 Gwp: Gewestplan > 'Gwp.shp'
-    LINK: https://download.agiv.be/Producten/Detail?id=710&title=Gewestplan_vector_toestand_01_01_2002 _correctie_18_06_2014 
+    LINK: https://download.agiv.be/Producten/Detail?id=710&title=Gewestplan_vector_toestand_01_01_2002_correctie_18_06_2014 
 
 gga: Gebieden waar geen archeologische >'gga.shp' 
     LINK: https://dev-geo.onroerenderfgoed.be/geoserver/vioe_geoportaal/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=vioe_geoportaal:gebieden_geen_archeologie&outputFormat=shape-zip 
@@ -23,6 +23,6 @@ bes-ach_site: Beschermde archeologische sites > 'bes_arch_site.shp'
     LINK: https://inventaris.onroerenderfgoed.be/bestanden/gis/shape/aanduidingsobjecten.zip  
 
 RUPenBPA-basis: Ruimtelijke uitvoeringsplan en Bijzonder plan van aanleg 
-    Uit intern databeheer systeem : Cipal/Nestor
-    filter hieruit de zone wel woon-of recreatie > 'wrzja.shp' 
-    en de zone geen woon-of recreatie > 'wrzneen.shp'
+    Uit intern databeheer systeem  van de stad
+    filter hieruit de zone "wel woon-of recreatie" > 'wrzja.shp' 
+    en de zone "geen woon-of recreatie" > 'wrzneen.shp'
