@@ -1,7 +1,10 @@
 # erfgoeddecreet
 pythonscript om het erfgoeddecreet toe te passen op locale data via QGIS
 
-Er is een nieuw Vlaams onroerenderfgoeddecreet. Deze verplicht om bij vergunningaanvragen met ingreep in de bodem een archeologisch onderzoek uit te laten voeren, afhankelijk van de oppervlakte en de zone van het project. De bedoeling is een webapplicatie te maken met een gebruiksvriendelijke interface die informatie geeft op perceelniveau over de geldende normen van het decreet .
+Er is een nieuw Vlaams onroerenderfgoeddecreet. Deze verplicht om bij vergunningaanvragen met ingreep in de bodem een archeologisch onderzoek uit te laten voeren, afhankelijk van de oppervlakte en de zone van het project. 
+Met behulp van bijhorend pythonscript kan je heel snel de zones afbakenen waar je verplicht bent om een archeologisch onderzoek uit te voeren én de zones waar het niet nodig is om een archeologisch onderzoek uit te laten voeren.
+
+Na uitvoering van het script, kan je de projectboom als hulpmiddel gebruiken.
 
 # Volgende lagen zijn nodig voor het doorvoeren van het project: 
 Adp: Administratieve  percelen van je eigen gemeente > 'Adp.shp'
