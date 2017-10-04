@@ -22,7 +22,7 @@ vast-az: Vastgestelde inventaris van archeologische zones  > 'vast_az.shp'
 bes-ach_site: Beschermde archeologische sites > 'bes_arch_site.shp'
     LINK: https://inventaris.onroerenderfgoed.be/bestanden/gis/shape/aanduidingsobjecten.zip  
 
-RUPenBPA-basis: Ruimtelijke uitvoeringsplan en Bijzonder plan van aanleg 
-    Uit intern databeheer systeem  van de stad
-    filter hieruit de zone "wel woon-of recreatie" > 'wrzja.shp' 
-    en de zone "geen woon-of recreatie" > 'wrzneen.shp'
+RUPenBPA-basis: Ruimtelijke uitvoeringsplan en Bijzonder plan van aanleg. 
+Filter uit intern databeheer systeem  van de stad
+de zone wel woon-of recreatie > 'wrzja.shp' en
+de zone geen woon-of recreatie > 'wrzneen.shp'
