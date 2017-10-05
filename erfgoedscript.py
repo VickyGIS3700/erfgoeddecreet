@@ -13,7 +13,7 @@ paths = ['import/', 'projectlagen/']
 #deze shapes heb je nodig om te starten
 shapefiles = ['Adp.shp','Gwp.shp','vast_az.shp','gga.shp','bes_arch_site.shp','wrzja.shp', 'wrzneen.shp']
 
-#BASISLAGEN nodig voor de start van het project. Verkorte wijze van noteren.
+#BASISLAGEN nodig voor de start van het project. Verkorte wijze van noteren.Staan in het mapje "import"
 adp = QgsVectorLayer(root + paths[0] + shapefiles[0], shapefiles[0], 'ogr')
 gwp = QgsVectorLayer(root + paths[0] + shapefiles[1], shapefiles[1], 'ogr')
 zone= QgsVectorLayer(root + paths[0] + shapefiles[2], shapefiles[2], 'ogr')
@@ -23,11 +23,11 @@ site= QgsVectorLayer(root + paths[0] + shapefiles[4], shapefiles[4], 'ogr')
 #LAAD SHAPEFILES
 QgsMapLayerRegistry.instance().addMapLayers([adp, gwp, zone, gebieden, site])
 
-#IMPORT lagen reeds voorbereid
-wrzja = QgsVectorLayer(paths[0] + shapefiles[5], shapefiles[5], 'ogr')
-wrzneen = QgsVectorLayer(paths[0] + shapefiles[6], shapefiles[6], 'ogr')
+#IMPORT lagen reeds voorbereid, in het mapje "projectlagen"
+wrzja = QgsVectorLayer(root + paths[1] + shapefiles[5], shapefiles[5], 'ogr')
+wrzneen = QgsVectorLayer(root + paths[1] + shapefiles[6], shapefiles[6], 'ogr')
 
-#PROJECTLAGEN (werk-shapes)worden opgesteld tijdens dit script. Bepaal waar de lagen weggeschreven worden.
+#NIEUWE PROJECTLAGEN (werk-shapes)worden opgesteld tijdens dit script. Bepaal waar de lagen weggeschreven worden.
 #Uitgebreide versie van notering onderaan. Niet zo praktisch als bovenstaande werkwijze.
 
 bbox='G:/geo-ict-Qgis/projectlagen/BoundingBox.shp'
