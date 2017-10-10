@@ -13,9 +13,9 @@ Gwp: Gewestplan > 'Gwp.shp'  LINK: https://download.agiv.be/Producten/Detail?id=
 
 gga: Gebieden waar geen archeologische >'gga.shp' LINK: https://dev-geo.onroerenderfgoed.be/geoserver/vioe_geoportaal/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=vioe_geoportaal:gebieden_geen_archeologie&outputFormat=shape-zip 
 
-vast-az: Vastgestelde inventaris van archeologische zones  > 'vast_az.shp'  LINK: https://inventaris.onroerenderfgoed.be/bestanden/gis/shape/aanduidingsobjecten.zip 
+vast-az: Vastgestelde inventaris van archeologische zones  > 'vast_az.shp'  LINK: https://geo.onroerenderfgoed.be/downloads/aanduidingsobjecten.zip 
 
-bes-ach_site: Beschermde archeologische sites > 'bes_arch_site.shp'  LINK: https://inventaris.onroerenderfgoed.be/bestanden/gis/shape/aanduidingsobjecten.zip  
+bes-ach_site: Beschermde archeologische sites > 'bes_arch_site.shp'  LINK: https://geo.onroerenderfgoed.be/downloads/aanduidingsobjecten.zip  
 
 RUPenBPA-basis: Ruimtelijke uitvoeringsplan en Bijzonder plan van aanleg. 
 Filter uit intern databeheer systeem  van de stad
