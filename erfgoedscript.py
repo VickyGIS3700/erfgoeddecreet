@@ -85,13 +85,11 @@ outputs_SAGADIFFERENCE_4 = processing.runalg('saga:difference', ggaja,bufgganeg,
 outputs_SAGADIFFERENCE_5 = processing.runalg('saga:difference', bbox,siteclip,True,bufsiteneg)
 outputs_SAGADIFFERENCE_6 = processing.runalg('saga:difference', siteja,bufsiteneg,True,cleansite)
 
-#Import (voorbewerkingen met arcmap) wrz-ja en wrz-neen
+#Import (voorbewerkingen met arcmap) wrz-ja en wrz-neen. Zie regel 26
 
 # resultaat visualiseren
-gemShp4 = QgsVectorLayer(wrzja, 'wrz-ja', 'ogr')
-gemShp3 = QgsVectorLayer(wrzneen, 'wrz-neen', 'ogr')
 gemShp2 = QgsVectorLayer(cleanzone, 'zone-ja', 'ogr')
 gemShp1 = QgsVectorLayer(cleansite, 'site-ja', 'ogr')
 gemShp = QgsVectorLayer(cleangga, 'gga-ja', 'ogr')
 
-QgsMapLayerRegistry.instance().addMapLayers([gemShp4, gemShp3, gemShp2, gemShp1,gemShp])
+QgsMapLayerRegistry.instance().addMapLayers([wrzja, wrzneen, gemShp2, gemShp1,gemShp])
