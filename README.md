@@ -10,6 +10,9 @@ Na uitvoering van het script, kan je de projectboom als hulpmiddel gebruiken.
 Adp: Administratieve  percelen van je eigen gemeente > 'Adp.shp'  LINK: https://download.agiv.be/Producten/Detail?id=386&title=GRB_Adp_administratief_perceel 
 
 Gwp: Gewestplan > 'Gwp.shp'  LINK: https://download.agiv.be/Producten/Detail?id=710&title=Gewestplan_vector_toestand_01_01_2002_correctie_18_06_2014 
+Filter 
+de zone wel woon-of recreatie > 'wrzja.shp' en
+de zone geen woon-of recreatie > 'wrzneen.shp'
 
 gga: Gebieden waar geen archeologische >'gga.shp' LINK: https://dev-geo.onroerenderfgoed.be/geoserver/vioe_geoportaal/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=vioe_geoportaal:gebieden_geen_archeologie&outputFormat=shape-zip 
 
@@ -18,7 +21,7 @@ vast-az: Vastgestelde inventaris van archeologische zones  > 'vast_az.shp'  LINK
 bes-ach_site: Beschermde archeologische sites > 'bes_arch_site.shp'  LINK: https://geo.onroerenderfgoed.be/downloads/aanduidingsobjecten.zip  
 
 RUPenBPA-basis: Ruimtelijke uitvoeringsplan en Bijzonder plan van aanleg. 
-Filter uit intern databeheer systeem  van de stad
+Filter uit intern databeheer systeem  van de stad. Voeg de zones samen met de bovenstaande uit het gewestplan.
 de zone wel woon-of recreatie > 'wrzja.shp' en
 de zone geen woon-of recreatie > 'wrzneen.shp'
 
