@@ -14,7 +14,8 @@ Filter
 de zone wel woon-of recreatie > 'wrzja.shp' en
 de zone geen woon-of recreatie > 'wrzneen.shp'
 
-gga: Gebieden waar geen archeologische >'gga.shp' LINK: https://dev-geo.onroerenderfgoed.be/geoserver/vioe_geoportaal/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=vioe_geoportaal:gebieden_geen_archeologie&outputFormat=shape-zip 
+gga: Gebieden waar geen archeologische >'gga.shp' Vind de downloadlink bij het besluit. LINK: 
+https://besluiten.onroerenderfgoed.be/besluiten/14546
 
 vast-az: Vastgestelde inventaris van archeologische zones  > 'vast_az.shp'  LINK: https://geo.onroerenderfgoed.be/downloads/aanduidingsobjecten.zip 
 
