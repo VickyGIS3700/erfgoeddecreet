@@ -28,3 +28,6 @@ de zone geen woon-of recreatie > 'wrzneen.shp'
 
 Let op het coördinatenstelsel (vb alles in EPSG:31340)!!
 Voorbeeld van een eindresultaat: http://geotic.maps.arcgis.com/apps/webappviewer/index.html?id=cacc6e1fb5714e5ab640da12619d5c5a
+
+*** Melding van Erfgoed Vlaanderen: https://geo.onroerenderfgoed.be/downloads De downloads die je daar aantreft worden elke nacht opnieuw aangemaakt en zijn dus zeer up to date.
+Merk op dat de GGA laag daar nog niet tussen staat. Zoals ik (Koen Vandaele)al schreef, kun je die altijd samen met het laatste besluit vinden. Vanaf 31/10/2017 is dat https://besluiten.onroerenderfgoed.be/besluiten/14546. Op termijn zal er ook een aangepaste vorm van het GGA bestand te vinden zijn op de aangehaalde downloads pagina.
